@@ -1,14 +1,17 @@
 
 .top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
+  background-color: #F4F6F6;
+  padding: 20px;
   text-align: center;
 }
 
+
 .header {
-  padding: 10px 16px;
-  background: #555;
-  color: #F39C12;
+  padding: 10px;
+  background:#12EAEA;
+  color: #DA4167;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 .content {
@@ -24,3 +27,66 @@
 .sticky + .content {
   padding-top: 102px;
 }
+
+.container{
+	background-color: #12EAEA;
+	height: 420px;
+	width: 3200px;
+	margin-bottom: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.peanut-butter{
+	width: 600px;
+	height: 4900px;
+	background: #DA4167 ;
+	margin-top:30px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+	padding: 10px;
+}
+.orange{
+	margin-top: 80px;
+	background-color: #12EAEA;
+	width: 600px;
+	padding: 10px;
+	font-size: 32px;
+
+}
+.bagel{
+	margin-top: 20px;
+}
+.cream{
+	margin-top: 70px;
+}
+
+aside{ 
+float: left;
+padding:10px; }
+
+img{
+	margin-top:40px;
+}
+
+@media (min-width: 576px) {
+
+.font-size{
+		font-size: 5px;}
+
+@media (min-width: 768px) { 
+.font-size{
+		font-size: 10px;
+	} }
+
+@media (min-width: 992px) {.font-size{
+		font-size: 20px;
+	} }
+
+@media (min-width: 1200px) { 
+	.font-size{
+		font-size: 30px;
+	}
+	.margin-top{
+		margin-top: 80px; 
+	}
+ }
